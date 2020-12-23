@@ -4,6 +4,7 @@
 !.devcontainer/Dockerfile.template
 .vscode/*
 !.vscode/tasks.json.template
+!.vscode/settings.json.template
 
 # cmake settings
 build
