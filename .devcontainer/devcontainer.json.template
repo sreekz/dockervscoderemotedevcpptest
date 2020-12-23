@@ -1,0 +1,6 @@
+{
+  "build": { "dockerfile": "Dockerfile" },
+  "extensions": ["ms-vscode.cpptools"],
+  "workspaceFolder": "/workspace",
+  "workspaceMount": "source=remote-workspace,target=/workspace,type=bind,consistency=cached"
+}
