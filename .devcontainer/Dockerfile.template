@@ -4,6 +4,7 @@ FROM ubuntu:focal
 RUN set -eux; \
 	apt-get update; \
 	apt-get install -y --no-install-recommends \
+		git \
 		gcc \
 		g++ \
 		libomp-dev \
