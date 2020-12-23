@@ -1,3 +1,10 @@
+# VSCode settings
+.devcontainer/*
+!.devcontainer/devcontainer.json.template
+!.devcontainer/Dockerfile.template
+.vscode/*
+!.vscode/tasks.json.template
+
 # Prerequisites
 *.d
 
