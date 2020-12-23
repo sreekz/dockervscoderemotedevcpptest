@@ -5,6 +5,9 @@
 .vscode/*
 !.vscode/tasks.json.template
 
+# cmake settings
+build
+
 # Prerequisites
 *.d
 

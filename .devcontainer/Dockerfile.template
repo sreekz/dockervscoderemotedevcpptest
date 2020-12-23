@@ -1,6 +1,7 @@
 FROM ubuntu:focal
 
-# customized buildpack-deps:focal-curl
+RUN DEBIAN_FRONTEND="noninteractive" apt-get -y install tzdata
+
 RUN set -eux; \
 	apt-get update; \
 	apt-get install -y --no-install-recommends \
@@ -8,5 +9,7 @@ RUN set -eux; \
 		gcc \
 		g++ \
 		libomp-dev \
+		make \
+		cmake \
 	; \
 	rm -rf /var/lib/apt/lists/*

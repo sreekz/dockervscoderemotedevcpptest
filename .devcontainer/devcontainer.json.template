@@ -1,6 +1,6 @@
 {
   "build": { "dockerfile": "Dockerfile" },
-  "extensions": ["ms-vscode.cpptools"],
+  "extensions": ["ms-vscode.cpptools", "ms-vscode.cmake-tools"],
   "workspaceFolder": "/workspace",
   "workspaceMount": "source=remote-workspace,target=/workspace,type=bind,consistency=cached"
 }
